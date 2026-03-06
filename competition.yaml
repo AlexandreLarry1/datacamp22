@@ -1,8 +1,8 @@
 version: 2
-title: Templat competition - Dummy classification
-description: Dummy classification task
+title: ADEME DPE Prediction Challenge
+description: Predict the DPE energy label of French dwellings from ADEME data.
 image: logo.png
-registration_auto_approve: False  # if True, do not require approval from admin to join the comp
+registration_auto_approve: False
 
 terms: pages/terms.md
 pages:
@@ -15,8 +15,8 @@ pages:
 
 tasks:
   - index: 0
-    name: Developement Task
-    description: 'Tune models with training data, test against examples contained in public test data'
+    name: Development Task
+    description: Predict DPE labels using the training set and evaluate on public and private test sets.
     input_data: dev_phase/input_data/
     reference_data: dev_phase/reference_data/
     ingestion_program: ingestion_program/
@@ -25,15 +25,15 @@ tasks:
 solutions:
   - index: 0
     tasks:
-    - 0
+      - 0
     path: solution/
 
 
 phases:
   - name: Development Phase
     description: 'Development phase: tune your models.'
-    start: 10-07-2025
-    end: 03-31-2026
+    start: 03-06-2026
+    end: 12-31-2026
     tasks:
       - 0
 
@@ -41,20 +41,20 @@ leaderboards:
   - title: Results
     key: main
     columns:
-      - title: Test Accuracy
+      - title: Public Test QWK
         key: test
         index: 0
-        sorting: asc
-      - title: Private Test Accuracy
+        sorting: desc
+      - title: Private Test QWK
         key: private_test
         index: 1
-        sorting: asc
+        sorting: desc
         hidden: True
       - title: Train time
         key: train_time
         index: 2
-        sorting: desc
+        sorting: asc
       - title: Test time
         key: test_time
         index: 3
-        sorting: desc
+        sorting: asc
