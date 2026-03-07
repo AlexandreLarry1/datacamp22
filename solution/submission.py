@@ -63,15 +63,11 @@ def get_model():
       - A final classifier operates on the concatenated output.
     """
 
-    # Sub-pipeline for numerical columns: impute missing → scale
     numerical_pipeline = Pipeline([
         ("imputer", SimpleImputer(strategy="median")),
         ("scaler", StandardScaler()),
     ])
 
-    # Sub-pipeline for categorical columns:
-    #   cast to str (handles NaN-induced float columns like code_region_ban)
-    #   → impute missing → ordinal encode
     categorical_pipeline = Pipeline([
         ("to_str", FunctionTransformer(
             lambda X: X.astype(str), feature_names_out="one-to-one",
