@@ -1,18 +1,42 @@
 # Terms and Conditions
+# 1. Eligibility
+This challenge is open to students enrolled in the MSc Datascience at IPP and UP-Saclay. Participation is voluntary and free of charge.
 
-## Lorem Ipsum
+Participants may compete individually, subject to the rules specified by the course instructors.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+# 2. Data Usage
+The datasets provided for this challenge are intended solely for educational and research purposes within the scope of this course.
 
-## Sed ut perspiciatis
+Participants agree to:
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae 
-ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit 
-aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam 
-est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore 
-et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, 
-nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae 
-consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+Use the data only for the purpose of this challenge.
+Not redistribute the data outside the course or upload it to public repositories.
+Not attempt to identify, reverse-engineer, or misuse the data beyond its intended scientific context.
+
+# 3. Submission Rules
+Participants must submit:
+
+A compressed folder containing the code necessary to train a model.
+Any accompanying code or documentation as specified by the instructors.
+Submissions must be the original work of the participants.
+
+
+# 4. Intellectual Property
+Participants retain ownership of the code and models they develop as part of this challenge.
+
+By submitting their results, participants grant the course instructors and the hosting institution a non-exclusive, royalty-free right to:
+
+Use the submissions for grading and evaluation.
+Use anonymized results or visualizations for teaching, presentations, or future course materials.
+
+
+# 5. Modification and Termination
+The organizers reserve the right to:
+
+Modify the challenge rules, datasets, or evaluation criteria if necessary.
+Terminate the challenge in case of technical issues or unforeseen circumstances.
+Any changes will be communicated to participants in a timely manner.
+
+# 6. Acceptance of Terms
+By participating in the challenge, participants acknowledge that they have read, understood, and agreed to these Terms and Conditions
+
