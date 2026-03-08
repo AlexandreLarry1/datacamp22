@@ -15,7 +15,7 @@ The data consists of numerical and categorical features of apartments throughout
 To help you evaluate your model locally, a small set of **test features** is provided for pre-testing (your submission will be evaluated on a separate private test).
 
 # Task
-Your task is to predict the etiquette_dpe class ranging from A to G. It is a **classification** task.
+Your task is to predict the `etiquette_dpe` class ranging from A to G. It is a **classification** task.
 
 # Metric
 As the aim of this challenge is to predict DPE scores for apartments throughout France, we need to develop a scoring metric to takes into account our categorical grades but also be inclined towards pessimistic models. Professionals would indeed prefer a model that is too pessimistic and delivers a below-relatity rating than the reverse as this could have substantial financial costs.
