@@ -1,4 +1,5 @@
 # DPE prediction challenge
+![Carte des régions](pages/DPE_categories.png)
 
 # Context
 Welcome to the DPE prediction challenge! 
