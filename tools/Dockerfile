@@ -1,9 +1,3 @@
-# Step 1: Start from an official Docker image with desired base environment
-# Good starting points are the official codalab images or
-# pytorch images with CUDA support:
-#    - Codalab: codalab/codalab-legacy:py39
-#    - Codalab GPU: codalab/codalab-legacy:gpu310
-#    - Pytorch: pytorch/pytorch:2.8.0-cuda12.6-cudnn9-runtime
 FROM codalab/codalab-legacy:py39
 
 # Set environment variables to prevent interactive prompts
